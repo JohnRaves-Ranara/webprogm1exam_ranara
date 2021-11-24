@@ -1,0 +1,16 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.openingsection_background{
+    width: 100%;
+    height: 100vh;
+     object-fit: cover;
+    /* object-position:center;  */
+
+    background: url(tokyo_1.jpg); 
+}
