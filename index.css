@@ -2,15 +2,89 @@
     padding:0;
     margin: 0;
     box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace;
+    font-family: courier;
 }
 
 
 .openingsection_background{
-    width: 100%;
+    background-repeat:no-repeat;
     height: 100vh;
-     object-fit: cover;
-    /* object-position:center;  */
-
-    background: url(tokyo_1.jpg); 
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(tokyo_2.jpg);
+    background-size: cover;
 }
+
+
+.openingsection_title_area{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.openingsection_title_content{
+    text-align: center;
+    font-size: 170%;
+    color: white;
+}
+
+.tokyotower_bg{
+    background-repeat:no-repeat;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(tokyotower_2.jpg);
+    background-size: cover;
+}
+
+
+.tokyotower_desc{
+    position: relative;
+    bottom: 255px;
+    margin-right: 1000px;
+    margin-left: 40px;
+    text-align: justify;
+    font-size: 100%;
+    color: white;
+    line-height: 1.7;
+}
+
+
+.tokyotower_box{
+    position: relative;
+    height: 430px;
+    width: 530px;
+    opacity: 0.7;
+    background: rgb(165, 31, 60);
+    top: 170px;
+    left: 20px;
+}
+
+
+.imperialtokyo_bg{
+    background-repeat:no-repeat;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imperialtokyo.jpg);
+    background-size: cover;
+}
+
+
+.imperialtokyo_desc{
+    position: relative;
+    bottom: 395px;
+    margin-right: 50px;
+    margin-left: 1000px;
+    text-align: justify;
+    font-size: 100%;
+    color: white;
+    line-height: 1.7;
+}
+
+.imperialtokyo_box{
+    position: relative;
+    height: 550px;
+    width: 515px;
+    opacity: 0.7;
+    background: rgb(40, 113, 182);
+    top: 120px;
+    left: 975px;
+}
+
+
